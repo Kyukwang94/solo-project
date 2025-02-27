@@ -7,12 +7,98 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
-
+*{
+    margin:0;
+}
 body {
-    margin: 0;
     text-align: center;
 }
 
 img {
     width: 100px;
 }
+#hero-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image:url(images/torshov.jpg);
+    background-size: cover;
+    background-position: center;
+    height:400px;
+}
+.hero-section
+{
+    margin:0 auto;
+    color:white;
+    border-radius: 8px;
+}
+#hero-section-title{
+    background-color: #219ebc;
+    margin-bottom:15px;
+    padding:5px 15px;
+}
+#hero-section-description{
+    width:500px;
+    background-color: #15505f;
+}
+
+/* ----activist section ---- */
+.activities-image{
+    border-radius: 50%;
+}
+#activities-section-wrapper{
+    background-color: #dff8e2;
+    height:400px;
+    margin:0;
+}
+#activities-section-images{
+    display:flex;
+    justify-content: space-around;
+}
+#activities-title {
+    font-size:24px;
+    padding:20px 0;
+}
+.activities-image{
+    margin-bottom:20px;
+}
+.activities-description{
+    font-size:20px;
+    width:300px;
+}
+.activities-image-title{
+    margin:7px 0;
+}
+
+/* ----Guide section ---- */
+#guide-section-wrapper{
+    display: flex;
+    justify-content: center;
+    width:400px;
+    background-color: #74cfcf;
+
+    margin:30px auto;
+    padding:25px;
+
+    border-bottom:8px solid #15505f;
+}
+#guide-section-image{
+    width:160px;
+}
+#guide-section-description{
+    width: 180px;
+    margin-left:20px;
+}
+
+#guide-section-card-title{
+    font-size:24px;
+    margin:15px 0;
+}
+#guide-section-card-description-{
+    font-style: italic;
+    font-weight:500;
+    margin-bottom:15px;
+}
+
+
