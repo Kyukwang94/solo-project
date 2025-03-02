@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="socreBoard-wrapper">
+        <div id="home-wrapper">
+            <h1 id="home-title" class="scoreBoard-title"> HOME </h1>
+            <div id="score-display-container">
+                <div class="score-display" id="home-score-display">0</div> 
+            </div>
+            
+            <div id="increment-wrapper">
+                <div class="plus-wrapper" id="home-score">
+                    <button onclick="scoreOne(this)" id="plus-1">+1</button>
+                    <button onclick="scoreTwo(this)" id="plus-2">+2</button>
+                    <button onclick="scoreThree(this)" id="plus-3">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="guest-wrapper">
+            <div id="guest-wrapper">
+                <h1 id="guest-title" class="scoreBoard-title">GUEST</h1>
+                <div  id="score-display-container">
+                    <div class="score-display" id="guest-score-display">0</div> 
+                </div> 
+                <div class="plus-wrapper" id="guest-score">
+                    <button onclick="scoreOne(this)" id="plus-1">+1</button>
+                    <button onclick="scoreTwo(this)" id="plus-2">+2</button>
+                    <button onclick="scoreThree(this)" id="plus-3">+3</button>
+                </div>
+            </div>
+            <script src="index.js"></script>
+
+       
+        
+        
+
+
+    </div>
+    <script src=index.js></script>
+</body>
+</html>
